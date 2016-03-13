@@ -1,0 +1,39 @@
+{
+  "name": "grunt-lasso",
+  "description": "Grunt plugin for Lasso JS optimizer - an ebay open source front end module bundler",
+  "version": "0.0.1",
+  "homepage": "https://github.com/lasso-js/lasso",
+  "author": {
+    "name": "Damodaran Sathyakumar",
+    "email": "gautham.daamodhar@gmail.com",
+    "url": "https://in.linkedin.com/in/gauthamdaamodhar"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dsathyakumar/grunt-lasso.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dsathyakumar/grunt-lasso/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/lasso-js/lasso/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": "(>=0.10.40)"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
